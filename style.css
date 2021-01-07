@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://i.ibb.co/zh2YHDK/danil-aksenov-g-WZfmn-Do-L-E-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    justify-content: center;
+    margin: 0;
+
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: -4rem;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.countdown {
+    text-align: center;
+}
+
+.countdown span {
+    font-size: 2rem;
+}
+
+
